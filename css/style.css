@@ -1,0 +1,63 @@
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+.text1{
+    min-height: 400px;
+    background-color: rgb(255, 0, 200);
+}
+.text2{
+    min-height: 400px;
+    background-color: rgb(255, 37, 81);
+    background-image: linear-gradient(to bottom, rgb(165, 33, 114), rgb(255, 148, 232));
+    color: white;
+}
+.text3{
+    min-height: 500px;
+    
+}
+.text4{
+    min-height: 400px;
+    background-image: linear-gradient(to bottom, rgb(131, 96, 45), rgb(90, 37, 2));
+}
+
+/* isotope start */
+.isotope{
+    min-height: 850px;
+    background-image: linear-gradient(to bottom, rgb(43, 0, 37), purple);
+    padding: 70px 0px;
+}
+
+.portfolio-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.portfolio-menu li{
+    padding: 10px 30px;
+    border: 1px solid rgb(175, 175, 175);
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+}
+.portfolio-box{
+    margin-bottom: 30px;
+    height: 250px;
+}
+.portfolio-box img{
+    width: 100%;
+    height: 100%;
+}
+
+/* slick slider */
+.slick-slider{
+    min-height: 550px;
+    background-color: tomato;
+    padding: 70px 0px;
+}
+.slide-img{
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
